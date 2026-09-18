@@ -30,11 +30,15 @@ Neste laboratório, foram abordados os seguintes tópicos práticos:
   sudo yum -y upgrade
   sudo yum install httpd -y
 
+![pratica1](./assets/at1.png)
+
 ### ✅ 2. Controle de Histórico e Rollback
 * Listagem e auditoria das transações executadas no sistema operacional:
   ```bash
   sudo yum history list
   sudo you history info 1
+
+![pratica2](./assets/at2.png)
 
 ### ✅ 3. Instalação da AWS CLI
 * Download, descompactação e instalação da AWS CLI v2 via terminal:
@@ -43,10 +47,14 @@ Neste laboratório, foram abordados os seguintes tópicos práticos:
   unzip awscliv2.zip
   sudo ./aws/install
 
+![awshelp](./assets/Captura%20de%20tela%202026-09-17%20221320.png)
+
 ### ✅ 4. Configuração da AWS CLI e Credenciais
 * Inicialização da configuração padrão:
   ```bash
   aws configure
+
+![pratica4](./assets/at5.png)
 
 ### ✅ 5. Inspeção de Infraestrutura via Linha de Comando
 * Obtenção do ID da instância EC2 (Command Host) no Console da AWS.
@@ -64,6 +72,8 @@ Neste laboratório, foram abordados os seguintes tópicos práticos:
     }
   }
 
+![validacaoID](./assets/Captura%20de%20tela%202026-09-17%20223840.png)
+
 ## 💡 Principais Aprendizados
 * Domínio do Gerenciamento de Pacotes: Compreensão de como aplicar atualizações de segurança e gerenciar o ciclo de vida de softwares no Amazon Linux com o comando yum.
 
@@ -72,6 +82,7 @@ Neste laboratório, foram abordados os seguintes tópicos práticos:
 * Automação via CLI: Capacidade de interagir diretamente com os recursos da nuvem AWS usando a linha de comando, sem depender exclusivamente da console gráfica.
 
 * Visão Sistêmica: Entendimento de que gerenciar uma instância EC2 vai muito além de provisionar máquinas, exigindo autonomia no sistema operacional e habilidade de inspeção de atributos via API.
+
 
 ## Tecnologias
 <p>
